@@ -44,10 +44,10 @@ public class lab1{
 				 break;
         
 		}
-		System.out.println("Which company are you living in ?");
+		System.out.println("Which company are you working in ?");
 		String company = sc.next();
 
-		if (company == "Facebook" || "Goggle"){
+		if (company.equals("Facebook") || company.equals("Google")){
 			System.out.println("The Employee is working in MNC" );
 
 		}
